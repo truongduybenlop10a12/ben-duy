@@ -1,27 +1,54 @@
-package ben.dev;
+package basic.dev;
 
 public class MainApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a = 9;
-		Person p = new Person();
-		p.name = "Person 1";
-		
-		p.nameSchool = "HaNoi UNI";
-		
-		Person p2 = new Person();
-		p2.name = "Person 2";
-		
-	    p2.nameSchool = "DaNang UNI";
-	    
-	    
-		System.out.println(p.name);
-		System.out.println(p.nameSchool);
-		
-		System.out.println(p.name);
-		System.out.println(p2.nameSchool);
-
+        byte b = 9;
+        System.out.println(b);
+        System.out.println(Byte.MIN_VALUE);
+        System.out.println(Byte.MAX_VALUE);
+        
+        short s1 = b;
+        
+        short s = 10;
+        System.out.println(s);
+        System.out.println(Short.MIN_VALUE);
+        System.out.println(Short.MAX_VALUE);
+        
+        int in = s;
+        
+        
+        int i = 10;
+        System.out.println(i);
+        System.out.println(Integer.MIN_VALUE);
+        System.out.println(Integer.MAX_VALUE);
+        
+        
+        long l = 100;
+        System.out.println(l);
+        System.out.println(Long.MIN_VALUE);
+        System.out.println(Long.MAX_VALUE);
+        
+        
+        float f = 100;
+        System.out.println(f);
+        System.out.println(Float.MIN_VALUE);
+        System.out.println(Float.MAX_VALUE);
+        
+        
+        
+        double d = 100;
+        System.out.println(d);
+        System.out.println(Double.MIN_VALUE);
+        System.out.println(Double.MAX_VALUE);
+        
+        
+        char c = 'A';
+        System.out.println(c);
+        
+        boolean bool = true;
+        System.out.println(bool);
 	}
 
 }
